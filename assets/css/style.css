@@ -17141,7 +17141,7 @@ input[type=color] {
 }
 .tp-footer-subscribe-input input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-} 
+}
 .tp-footer-subscribe-input input:-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
