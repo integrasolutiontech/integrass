@@ -2100,7 +2100,7 @@ input[type=color] {
 }
 
 .blue-bg {
-  background: var(--tp-common-blue-2);
+  background: #171b27;
 }
 
 .blue-bg-2 {
@@ -2179,7 +2179,7 @@ input[type=color] {
   width: 480px;
   bottom: 0;
   box-shadow: 0 16px -32px 0 rgba(0, 0, 0, 0.8);
-  background-color: #2651b5;
+  background-color: #171b27;
   z-index: 9999;
   padding: 50px;
   scrollbar-width: none;
@@ -5154,7 +5154,7 @@ input[type=color] {
 }
 
 .tp-hero-overlay {
-  background-color: var(--tp-common-blue-2);
+  background-color: #171b27;
   position: relative;
   z-index: 1;
 }
@@ -5165,7 +5165,7 @@ input[type=color] {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(358.24deg, rgba(13, 92, 225, 0.9) 1.52%, rgba(13, 92, 225, 0) 90.93%);
+  background: linear-gradient(358.24deg, rgba(13, 92, 225, 0) 90.93%), rgba(13, 92, 225, 0) 90.93%);
   transform: matrix(1, 0, 0, -1, 0, 0);
   z-index: -1;
 }
@@ -7052,7 +7052,7 @@ input[type=color] {
   height: 360px;
   background-size: cover;
   margin: 15px;
-  background: #3137D2;
+  background: #018cc1;
   box-shadow: 0px -3px 0px #F8FF35;
   border-radius: 30px;
   padding: 50px 50px;
@@ -7893,7 +7893,7 @@ input[type=color] {
   top: 0;
   left: 0;
   z-index: -1;
-  background-color: var(--tp-common-blue-2);
+  background-color: #171b27;
   opacity: 0.1;
   height: 100%;
   width: 100%;
@@ -8535,12 +8535,12 @@ input[type=color] {
 }
 @media (max-width: 767px) {
   .tp-service-4-item::after {
-    background-color: #3137D2;
+    background-color: #018cc1;
     height: 100%;
   }
 }
 .tp-service-4-item:hover::after {
-  background-color: #3137D2;
+  background-color: #018cc1;
   height: 100%;
   animation: bounceRight 2s;
 }
@@ -15405,7 +15405,7 @@ input[type=color] {
   }
 }
 .tp-security-wrapper {
-  background: #3137D2;
+  background: #018cc1;
   box-shadow: -3px 0px 0px #F8FF35;
   border-radius: 100px;
   padding: 25px 40px;
@@ -15417,10 +15417,10 @@ input[type=color] {
   background-color: var(--tp-common-yellow-3);
 }
 .tp-security-wrapper:hover .tp-security-title-sm {
-  color: var(--tp-common-blue-2);
+  color: #171b27;
 }
 .tp-security-wrapper:hover .tp-security-link a svg {
-  color: var(--tp-common-blue-2);
+  color: #171b27;
 }
 .tp-security-title-sm {
   font-weight: 600;
@@ -15466,7 +15466,6 @@ input[type=color] {
 }
 .tp-contact-overlay::after {
   position: absolute;
-  background: linear-gradient(359.33deg, rgba(13, 92, 225, 0.9) 0.59%, rgba(13, 92, 225, 0) 99.43%);
   transform: matrix(1, 0, 0, -1, 0, 0);
   top: 0;
   left: 0;
@@ -16862,7 +16861,7 @@ input[type=color] {
   background-color: var(--tp-common-yellow-3);
 }
 .footer-widget-4 .tp-footer__input button svg {
-  color: var(--tp-common-blue-2);
+  color: #171b27;
   transition: 0.3s;
 }
 .footer-widget-4 .tp-footer__input button:hover {
